@@ -1,0 +1,128 @@
+@media screen and (width > 600px) {
+    .logo_container {
+        display: block;
+        text-align: center;
+    }
+    
+    .dark_mode_toggle_btn {
+        position: fixed;
+        top: 5%;
+        right: 5%;
+    }
+    
+    .notMobile {
+        display: block !important;
+    }
+    
+    
+    .logo {
+        display: inline-block;
+        margin-block: 4rem;
+        text-decoration: none;
+        color: #39D490;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .mobile_navbar {
+        display: none;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .current_page_num {
+        margin-block: 7rem;
+    }
+
+    .header > .current_page_num {
+        display: none;
+    }
+
+    .header > .navbar {
+        width: 100%;
+    }
+
+    .navmenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .nav-item {
+        list-style: none;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+    }
+
+    .home_content_container {
+        flex-direction: row;
+        padding-inline: 5rem;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .home_right {
+        padding-inline: 0rem;
+    }
+
+    .home_right > h1, .each_header {
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #39D490;
+    } 
+
+    .home_right > p, .sharing_content, .each_content > p, .each_about_content_session > p, .each_about_session > p, .inner_contact_container > p {
+        font-size: 1rem;
+        color: rgb(70, 70, 70);
+    }
+
+    .each_content > ul > li, .each_about_session > ul > li {
+        font-size: 0.95rem;
+    }
+
+    .sharing_content {
+        margin-block: 0rem;
+    }
+
+    .sharing_container {
+        padding-inline: 5rem;
+    }
+
+    .topics_container {
+        padding-inline: 5rem;
+    }
+
+    .about_container {
+        padding-inline: 5rem;
+    }
+
+
+    .each_about_session > h1 {
+        font-size: 1.7rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact_form > h1, .contact_content > h1 {
+        font-size: 1.7rem;
+    }
+
+    .each_about_session {
+        margin-bottom: 7rem;
+    }
+
+    .each_about_content_session > img {
+        width: min(50%, 320px);
+    }
+
+    .contact_container {
+        width: 100%;
+        padding-inline: 5rem;
+    }
+}

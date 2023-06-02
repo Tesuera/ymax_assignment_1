@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.dark_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark_mode_toggle_btn {
+    width: 2.4rem;
+    height: 1.2rem;
+    background: rgb(168, 168, 168);
+    border-radius: 50px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.toggle_alert {
+    background-color: white;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-12%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.dark_mode_check_box {
+    display: none;
+}
+
+.dark_mode_check_box:checked + .dark_container .dark_mode_toggle_btn {
+    background-color: #39D490;
+}
+
+.dark_mode_check_box:checked ~ .dark_container {
+    background-color: #202124;
+}
+
+.dark_mode_check_box:checked ~ .dark_container > .mobile_topics_headers {
+    background-color: #2d2e32;
+}
+
+.dark_mode_check_box:checked ~ .dark_container .mobile_navmenu_container {
+    background-color: #2d2e32;
+}
+
+.dark_mode_check_box:checked ~ .dark_container .mobile_navmenu_container a {
+    color: rgb(197, 197, 197);
+}
+
+.dark_mode_check_box:checked ~ .dark_container .header a {
+    color: rgb(197, 197, 197);
+}
+
+.dark_mode_check_box:checked + .dark_container .toggle_alert {
+    left: 88%;
+    transform: translate(-88%, -50%);
+}
+
+.dark_mode_check_box:checked ~ .dark_container .mobile_topics_toggle {
+    background-color: #202124;
+    color: rgb(197, 197, 197) !important;
+}
+
+.dark_mode_check_box:checked ~ .dark_container .mobile_topics_headers li a {
+    color: rgb(197, 197, 197) !important;
+}
+
+.dark_mode_check_box:checked ~ .dark_container .topics_headers li a {
+    color: rgb(197, 197, 197) !important;
+}
+
+.dark_mode_check_box:checked ~ .dark_container > .mobile_topics_headers .bar {
+    background-color: #d4d4d4;
+}
+
+.dark_mode_check_box:checked ~ .dark_container p {
+    color: rgb(197, 197, 197) !important;
+}
+
+.dark_mode_check_box:checked ~ .dark_container ul li {
+    color: #76c5a3;
+}
+
+.dark_mode_check_box:checked ~ .dark_container input {
+    color: rgb(197, 197, 197) !important;
+}
+
+.dark_mode_check_box:checked ~ .dark_container textarea {
+    color: rgb(197, 197, 197) !important;
+}
+
+.active-link {
+    color: #39D490 !important;
+}

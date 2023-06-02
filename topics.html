@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign 1</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+    <input type="checkbox" class="dark_mode_check_box" id="dark_mode_toggle">
+    <div class="dark_container">
+        <label for="dark_mode_toggle" class="dark_mode_toggle_btn notMobile">
+            <div class="toggle_alert"></div>
+        </label>
+        <div class="logo_container">
+            <a href="./" class="logo">NOTDY</a>
+        </div>
+        <input type="checkbox" class="dark_mode_check_box" id="topics_header_toggle">
+        <label for="topics_header_toggle" class="mobile_topics_toggle">
+            Topics <i class="fa-solid fa-chevron-up"></i>
+        </label>
+        <div class="mobile_topics_headers">
+            <label for="topics_header_toggle" class="mobile_topics_toggle_close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <div class="mobile_topics_container">
+                <ul class="topics_head_lists">
+                    <h1 class="breakTitle"><a href="#P1" class="breakTitle_to">Programming</a></h1>
+                    <li class="each_topics_head">
+                        <a href="#P1" class="mobile_topics_links">What is programming?</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P2" class="mobile_topics_links">Pair programming and mob programming</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P3" class="mobile_topics_links">Knowledge sharing in open source projects</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P4" class="mobile_topics_links">Code review processes and procedures</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P5" class="mobile_topics_links">What is programming paradigm</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P6" class="mobile_topics_links">What is Imperative programming</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P7" class="mobile_topics_links">What is Declarative programming</a>
+                    </li>
+        
+        
+                    <h1 class="breakTitle"><a href="#N1" class="breakTitle_to">Networking</a></h1>
+        
+                    <li class="each_topics_head">
+                        <a href="#N1" class="mobile_topics_links">What is Networking</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N2" class="mobile_topics_links">The rules and standards that define how data is transmitted over a network, such as TCP/IP, HTTP, FTP, and SMTP</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N3" class="mobile_topics_links">The design of a network, including components such as routers, switches, firewalls, and servers</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N4" class="mobile_topics_links">Measuring and optimizing the speed and efficiency of a network</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N5" class="mobile_topics_links">Monitoring, configuring, and maintaining a network to ensure it operates effectively and efficiently</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile_navbar">
+            <a href="./" class="mobile_logo">NOTDY</a>
+            <div class="mobile_nav_right">
+                <label for="dark_mode_toggle" class="dark_mode_toggle_btn">
+                    <div class="toggle_alert"></div>
+                </label>
+                <label for="mobile_menu_toggle" class="mobile_menu_toggle"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" class="dark_mode_check_box" id="mobile_menu_toggle">
+                <nav class="mobile_navmenu_container">
+                    <ul class="mobile_navmenu">
+                        <label for="mobile_menu_toggle" class="mobile_menu_toggle_close"><i class="fa-solid fa-xmark"></i></label>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="./index.html">HOME</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link active-link" href="./topics.html">TOPICS</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="./about.html">ABOUT</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="./contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+    
+                    <h1 class="mobile_navmenu_logo">NOTDY</h1>
+                </nav>
+            </div>
+        </div>
+        <div class="header">
+            <nav class="navbar">
+                <ul class="navmenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active-link" href="./topics.html">TOPICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <h1 class="current_page_num">02</h1>
+        </div>
+        <div class="small_screen_current_page_num">
+            <h1 class="current_page_num">02</h1>
+        </div>
+        
+        <div class="topics_container">
+            <div class="topics_contents">
+                <div class="each_content">
+                    <h1 class="each_header" id="P1">What is programming?</h1>
+                    <p>
+                        Programming is the process of creating software, applications, and systems using a programming language. It involves designing, writing, testing, and maintaining computer programs that can perform specific tasks or solve problems.
+                        <br><br>
+                        Programs are created by writing instructions in a specific language that the computer can understand and execute. The instructions may include mathematical calculations, logical operations, data storage, and retrieval, and interaction with other software or hardware components.
+                        <br><br>
+                        Programming is a critical skill in today's technology-driven world, and it is used in a wide range of industries and fields, including software development, web development, data science, artificial intelligence, robotics, and many others.
+                    </p>
+                </div>
+    
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="P2">Pair programming and mob programming</h1>
+                    <p>
+                        Pair programming involves two developers working together on the same codebase, with one person typing 
+                        and the other person reviewing and providing feedback in real-time. The two developers switch roles frequently,
+                        with the goal of catching errors early, improving code quality, and promoting knowledge sharing and collaboration.
+                        <br><br>
+                        Mob programming, on the other hand, involves a larger group of developers (usually three or more) working together
+                        on the same codebase, with one person acting as the driver (typing) and the others acting as navigators (providing
+                        feedback and direction). The group works together to solve problems, with frequent rotation of the driver role to 
+                        promote equal participation and knowledge sharing.
+                        <br><br>
+                        Both pair programming and mob programming can be effective approaches to collaborative software development,
+                        depending on the specific needs of the team and project. Pair programming may be better suited for smaller projects
+                        or teams, while mob programming may be better suited for larger or more complex projects that require a high 
+                        degree of collaboration and coordination.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="P3">Knowledge sharing in open source projects</h1>
+                    <p>
+                        Knowledge sharing is a critical aspect of open source projects. In an open source project, developers from around the world collaborate to create, improve, and maintain a software product or service. Effective knowledge sharing helps these developers work together more efficiently and effectively, leading to better software products and services.
+                        <br><br>
+                        Here are some ways in which knowledge sharing happens in open source projects:
+                        <br><br>
+                    </p>
+    
+                        <ul>
+                            <li>Documentation: Open source projects often rely heavily on documentation to help new contributors get up to speed quickly. Documentation can take the form of code comments, technical articles, user manuals, or wikis. Good documentation is clear, concise, and up-to-date, and it should be easily accessible to all contributors.</li>
+                            <li>Code reviews: In an open source project, code reviews are often done by other contributors to ensure that the code meets the project's quality standards. Code reviews provide a way for developers to learn from each other, share ideas, and improve the overall quality of the codebase.</li>
+                            <li>Communication tools: Open source projects use various communication tools, such as mailing lists, forums, chat rooms, and issue trackers, to help contributors communicate with each other. These tools provide a way for developers to ask questions, share ideas, and collaborate on solving problems.</li>
+                            <li>Knowledge transfer: Experienced developers often mentor new contributors to help them get started and learn the ropes. This may involve pairing with a new contributor on a particular task, providing feedback on their work, or answering questions they may have.</li>
+                            <li>Conferences and events: Open source projects often hold conferences and events, such as meetups and hackathons, to bring contributors together in person. These events provide a way for developers to network, share ideas, and learn from each other in a more informal setting.</li>
+                        </ul>
+                        <br>
+                    <p>Overall, effective knowledge sharing is essential for the success of open source projects. It helps to build a strong community of contributors who are committed to working together to create high-quality software products and services.</p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="P4">Code review processes and procedures</h1>
+                    <p>
+                        Code review is a process where developers review each other's code to identify defects, ensure code quality, and provide feedback for improvement. Code review is an essential part of the software development process, as it helps to improve code quality, reduce defects, and promote collaboration among team members.
+                    
+    
+                        <br><br>
+                        Here are some common processes and procedures for code review:
+                        <br><br>
+                    </p>
+                        <ul>
+                            <li>Preparing for the code review: Before starting the code review process, it's important to establish clear expectations and guidelines for code review. This includes defining the scope of the review, establishing coding standards, and determining who will be involved in the review process.</li>
+                            <li>Reviewing the code: During the code review, reviewers should carefully examine the code to identify any errors, security vulnerabilities, or other issues. Reviewers should also ensure that the code adheres to coding standards, is well-structured, and is easy to maintain.</li>
+                            <li>Providing feedback: Reviewers should provide clear and actionable feedback to the developer whose code is being reviewed. Feedback should be specific, constructive, and focused on improving the code's quality and maintainability. Reviewers should also offer suggestions for alternative approaches or improvements to the code.</li>
+                            <li>Resolving issues: Once the review is complete, the developer whose code was reviewed should address any issues raised during the review process. This may involve making changes to the code or addressing concerns raised by the reviewers.</li>
+                            <li>Follow-up and continuous improvement: After the review process is complete, it's important to follow up with developers to ensure that any issues have been resolved and to track progress on improvements. Regular code reviews and continuous improvement can help to promote code quality and collaboration among team members.</li>
+                        </ul>
+                        <br>
+                    <p>
+                        There are several tools and technologies available to support the code review process, including code review tools, automated testing tools, and continuous integration systems. These tools can help to streamline the code review process, improve code quality, and reduce defects in the software development process.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="P5">What is programming paradigm</h1>
+                    <p>
+                        Programming paradigm refers to a fundamental approach to programming that determines how a programmer thinks about solving a problem using code. It includes a set of concepts, principles, and techniques that guide the development of software. Each programming paradigm has its unique approach to solving problems and represents a different way of thinking about software design and implementation.
+                        <br><br>
+                        Here are some common programming paradigms:
+                        <br><br>
+                    </p>
+                        <ul>
+                            <li>Imperative programming: This paradigm is focused on specifying a series of commands to perform a specific task. The programmer provides explicit instructions to the computer about how to perform a particular task. Imperative programming includes languages such as C, Pascal, and Fortran.</li>
+                            <li>Object-oriented programming (OOP): OOP is based on the concept of objects that have attributes and methods. It is focused on designing software using a collection of objects that interact with each other to perform a specific task. OOP includes languages such as Java, C++, and Python.</li>
+                            <li>Functional programming: This paradigm emphasizes the use of functions as the primary building blocks of software. In functional programming, the focus is on expressing the computation as a sequence of mathematical functions that do not have side effects. Functional programming includes languages such as Haskell, Lisp, and Clojure.</li>
+                            <li>Logic programming: Logic programming is based on the use of formal logic to solve problems. It is based on the concept of declaring facts and rules, which the program then uses to draw conclusions. Logic programming includes languages such as Prolog and Mercury.</li>
+                            <li>Event-driven programming: This paradigm is based on the idea of responding to events that occur in the system. The program responds to events by executing specific code based on the event that occurs. Event-driven programming includes languages such as JavaScript and Python.</li>
+                        </ul>
+                        <br>
+                    <p>
+                        The choice of programming paradigm depends on the nature of the problem being solved, the development team's experience, and the software's target platform. Many modern programming languages support multiple paradigms and allow programmers to mix and match paradigms as needed.
+                    </p>
+                </div>
+    
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="P6">What is Imperative programming</h1>
+                    <p>
+                        Imperative programming is a programming paradigm that focuses on providing the computer with a sequence of explicit instructions to perform a specific task. The programmer specifies the exact steps to be taken by the computer to perform the desired computation. Imperative programming languages provide commands or statements that describe the exact steps that the computer must take to execute a program.
+                        <br><br>
+                        The central concept of imperative programming is the statement or command, which describes an action to be taken by the computer. Imperative programming languages usually support statements such as conditional statements, loops, and assignments that modify the values of variables. Imperative programming languages such as C, Pascal, and Fortran are commonly used in system programming, scientific computing, and engineering applications.
+                        <br><br>
+                        In imperative programming, the programmer is responsible for specifying every detail of the program's execution. The program's behavior is determined by the sequence of statements executed by the computer. Imperative programming is often contrasted with declarative programming, which focuses on specifying what the program should achieve rather than how to achieve it.
+                        <br><br>
+                        While imperative programming is a powerful and flexible approach to programming, it can be challenging to write and maintain large programs. As a result, many modern programming languages, such as Java and C++, provide support for other programming paradigms, such as object-oriented programming, to help manage complexity and improve maintainability.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="P7">What is Declarative programming</h1>
+                    <p>
+                        Declarative programming is a programming paradigm that focuses on describing the desired results or outcomes of a program, rather than specifying the exact steps or procedures to achieve those outcomes. In declarative programming, the programmer specifies what the program should accomplish, and the program's execution engine determines how to achieve that goal.
+                        <br><br>
+                        In declarative programming, programs are constructed using expressions and rules that describe relationships between values and constraints on those values. The program does not specify how these values are calculated or computed. Instead, the program specifies a set of constraints and rules that describe the relationships between the values.
+                        <br><br>
+                        Declarative programming is often contrasted with imperative programming, which is based on specifying the exact sequence of steps that a computer should execute to achieve a desired outcome. Imperative programs specify explicit control flow statements such as loops, conditionals, and assignments, whereas declarative programs specify the relationships between values and the constraints that govern those relationships.
+                        <br><br>
+                        Some examples of declarative programming languages include SQL (Structured Query Language), Prolog, and Haskell. In SQL, for example, the programmer specifies the desired result of a database query, and the query engine determines how to execute the query to produce the desired result. In Prolog, the programmer specifies a set of facts and rules, and the Prolog engine determines how to derive a set of conclusions from those facts and rules.
+                        <br><br>
+                        Declarative programming can be useful for solving complex problems, as it allows the programmer to focus on the desired outcomes rather than the implementation details. Declarative programming can also make code easier to read and understand, as it can reduce the amount of low-level details that the programmer must manage. However, declarative programming can also be less efficient than imperative programming in some cases, as the execution engine must determine how to achieve the desired results, which can be computationally expensive.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="N1">What is Networking</h1>
+                    <p>
+                        Networking refers to the practice of connecting devices, systems, or networks together to enable communication and data exchange. It involves the use of various technologies and protocols, such as Ethernet, Wi-Fi, Bluetooth, TCP/IP, and others.
+                        <br><br>
+                        The goal of networking is to allow different devices and systems to communicate with each other and share resources such as data, files, and devices. Networking can be done using different types of connections, such as wired or wireless, and can include a range of devices, such as computers, servers, printers, routers, switches, and more.
+                        <br><br>
+                        Networking is a critical aspect of modern communication and computing, and it is used in many industries and fields, including business, healthcare, education, entertainment, and more. It enables people and organizations to share information and resources efficiently and effectively, leading to increased productivity and collaboration.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="N2">The rules and standards that define how data is transmitted over a network, such as TCP/IP, HTTP, FTP, and SMTP</h1>
+                    <p>
+                        The rules and standards that define how data is transmitted over a network are known as protocols. These protocols are essential for enabling communication between devices on a network, allowing them to exchange data and interact with each other.
+                        <br><br>
+                        Some common network protocols include:
+                        <br><br>
+                    </p>
+                        <ul>
+                            <li>TCP/IP (Transmission Control Protocol/Internet Protocol): This is the primary protocol used for transmitting data over the internet. It breaks down data into packets and manages their transmission, ensuring that they are delivered reliably and in the correct order.</li>
+                            <li>HTTP (Hypertext Transfer Protocol): This protocol is used for transmitting data over the web. It is used by web browsers and web servers to exchange data, such as web pages, images, and other content.</li>
+                            <li>FTP (File Transfer Protocol): This protocol is used for transferring files between computers on a network. It is commonly used for uploading and downloading files to and from web servers.</li>
+                            <li>SMTP (Simple Mail Transfer Protocol): This protocol is used for sending email messages over a network. It is responsible for delivering email messages from the sender to the recipient's email server.</li>
+                        </ul>
+                        <br>
+                        
+                    <p>
+                        There are many other network protocols as well, each with their own specific uses and requirements. These protocols are defined and maintained by standards organizations such as the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C). These organizations work to ensure that network protocols are compatible and interoperable, allowing devices from different vendors and manufacturers to communicate with each other.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="N3">The design of a network, including components such as routers, switches, firewalls, and servers</h1>
+                    <p>
+                        The design of a network involves the selection and arrangement of various hardware and software components to create a functional and efficient network that meets the requirements of the organization. The components of a network include routers, switches, firewalls, servers, and other devices that facilitate communication between devices and enable the sharing of resources such as files, printers, and internet connectivity.
+                        <br><br>
+                        Here are some key components of a network:
+                        <br><br>
+                    </p>
+                        <ul>
+                            <li>Routers: Routers are devices that connect two or more networks together and forward data packets between them. They help to manage network traffic and ensure that data is routed efficiently and securely.</li>
+                            <li>Switches: Switches are devices that connect devices on a network and allow them to communicate with each other. They provide a central point of connectivity for devices and help to manage network traffic.</li>
+                            <li>Firewalls: Firewalls are devices or software applications that help to protect a network from unauthorized access and other security threats. They monitor network traffic and filter out malicious or suspicious activity.</li>
+                            <li>Servers: Servers are computers that provide shared resources or services to other devices on a network. Examples include file servers, email servers, and web servers.</li>
+                        </ul>
+                        <br>
+                    <p>
+                        Other components of a network may include network interface cards (NICs), modems, wireless access points, and other specialized hardware or software.
+                    </p>
+                        <br><br>
+                    <p>
+                        When designing a network, it is important to consider factors such as network topology, scalability, security, and performance. Network designers must also take into account the needs of the organization, such as the number of users, the types of applications and services required, and the amount of data traffic that will be generated. By carefully selecting and configuring network components, a network can be designed to meet these requirements and provide reliable, efficient, and secure communication between devices.
+                    </p>
+                </div>
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="N4">Measuring and optimizing the speed and efficiency of a network</h1>
+                    <p>
+                        Measuring and optimizing the speed and efficiency of a network is an important task for network administrators to ensure that the network is performing at its best. Here are some methods that can be used to measure and optimize network performance:
+                        <br><br>
+                    </p>
+                        <ul>
+                            <li>Network monitoring tools: Network monitoring tools can help administrators to identify bottlenecks and other issues that may be affecting network performance. These tools can track network traffic, monitor device performance, and provide real-time alerts when issues are detected.</li>
+                            <li>Bandwidth optimization: Bandwidth optimization techniques can be used to reduce the amount of data traffic on a network and improve network performance. Techniques such as compression, caching, and content filtering can help to reduce the amount of data that needs to be transmitted over the network.</li>
+                            <li>Network segmentation: Network segmentation involves dividing a network into smaller subnetworks to improve performance and security. By segmenting the network, administrators can reduce the amount of data traffic on each segment and improve overall network performance.</li>
+                            <li>Quality of Service (QoS) prioritization: QoS prioritization allows administrators to prioritize certain types of network traffic over others. This can help to ensure that critical applications and services have the necessary bandwidth and resources to operate effectively.</li>
+                            <li>Network upgrades: Upgrading network hardware and software can also improve network performance. This may involve upgrading routers, switches, or other devices to support faster data transfer speeds or implementing new network protocols that are more efficient.</li>
+                        </ul>
+                        <br>
+                    <p>
+                        By using these and other methods, network administrators can measure and optimize the speed and efficiency of a network to ensure that it is performing at its best.
+                    </p>
+                </div>
+    
+    
+                <div class="each_content">
+                    <h1 class="each_header" id="N5">Monitoring, configuring, and maintaining a network to ensure it operates effectively and efficiently</h1>
+                    <p>
+                        Monitoring, configuring, and maintaining a network is an ongoing process that helps to ensure that the network operates effectively and efficiently. Here are some tasks that network administrators can perform to monitor, configure, and maintain a network:
+                        <br><br>
+                    </p>
+                        <ul>
+                            <li>Network monitoring: Network monitoring involves using tools and software to monitor network traffic and identify any issues that may be affecting network performance. This includes monitoring device performance, bandwidth usage, and network security.</li>
+                            <li>Configuration management: Configuration management involves managing the configurations of network devices to ensure that they are properly configured and functioning as intended. This includes managing device settings, updates, and patches.</li>
+                            <li>Performance optimization: Network administrators can optimize network performance by implementing bandwidth optimization techniques, such as compression and caching, and by using quality of service (QoS) prioritization to ensure that critical applications and services have the necessary resources to operate effectively.</li>
+                            <li>Security management: Network security management involves implementing security measures to protect the network from cyber threats, such as malware, viruses, and other malicious attacks. This includes managing access control, firewalls, and intrusion detection and prevention systems.</li>
+                            <li>Network documentation: Network documentation involves maintaining up-to-date documentation of the network's design, configuration, and maintenance procedures. This includes creating network diagrams, documenting device configurations, and maintaining inventory records.</li>
+                            <li>Regular maintenance: Regular maintenance tasks, such as firmware updates, hardware replacements, and backups, are important to ensure that the network operates effectively and to prevent downtime or data loss.</li>
+                        </ul>
+                        <br>
+                    <p>
+                        By performing these and other tasks, network administrators can ensure that the network operates effectively and efficiently, meets the needs of the organization, and remains secure and reliable.
+                    </p>
+                </div>
+    
+            </div>
+    
+            <div class="topics_headers">
+                <ul class="topics_head_lists">
+                    <h1 class="breakTitle"><a href="#P1" class="breakTitle_to">Programming</a></h1>
+                    <li class="each_topics_head">
+                        <a href="#P1" class="mobile_topics_links">What is programming?</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P2" class="mobile_topics_links">Pair programming and mob programming</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P3" class="mobile_topics_links">Knowledge sharing in open source projects</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P4" class="mobile_topics_links">Code review processes and procedures</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P5" class="mobile_topics_links">What is programming paradigm</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P6" class="mobile_topics_links">What is Imperative programming</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#P7" class="mobile_topics_links">What is Declarative programming</a>
+                    </li>
+        
+        
+                    <h1 class="breakTitle"><a href="#N1" class="breakTitle_to">Networking</a></h1>
+        
+                    <li class="each_topics_head">
+                        <a href="#N1" class="mobile_topics_links">What is Networking</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N2" class="mobile_topics_links">The rules and standards that define how data is transmitted over a network, such as TCP/IP, HTTP, FTP, and SMTP</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N3" class="mobile_topics_links">The design of a network, including components such as routers, switches, firewalls, and servers</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N4" class="mobile_topics_links">Measuring and optimizing the speed and efficiency of a network</a>
+                    </li>
+        
+                    <li class="each_topics_head">
+                        <a href="#N5" class="mobile_topics_links">Monitoring, configuring, and maintaining a network to ensure it operates effectively and efficiently</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="next_page_container">
+            <a href="./about.html">next page >>></a>
+        </div>
+        <div class="footer">
+            <p>&copy;2023 initiate Burma, all right reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

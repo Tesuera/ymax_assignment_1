@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign 1</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+    <input type="checkbox" class="dark_mode_check_box" id="dark_mode_toggle">
+   
+    <div class="dark_container">
+        <label for="dark_mode_toggle" class="dark_mode_toggle_btn notMobile">
+            <div class="toggle_alert"></div>
+        </label>
+        <div class="logo_container">
+            <a href="./" class="logo">NOTDY</a>
+        </div>
+        
+        <div class="mobile_navbar">
+            <a href="./" class="mobile_logo">NOTDY</a>
+            <div class="mobile_nav_right">
+                <label for="dark_mode_toggle" class="dark_mode_toggle_btn">
+                    <div class="toggle_alert"></div>
+                </label>
+                <label for="mobile_menu_toggle" class="mobile_menu_toggle"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" class="dark_mode_check_box" id="mobile_menu_toggle">
+                <nav class="mobile_navmenu_container">
+                    <ul class="mobile_navmenu">
+                        <label for="mobile_menu_toggle" class="mobile_menu_toggle_close"><i class="fa-solid fa-xmark"></i></label>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="./index.html">HOME</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="./topics.html">TOPICS</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="./about.html">ABOUT</a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link active-link" href="./contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <h1 class="mobile_navmenu_logo">NOTDY</h1>
+                </nav>
+            </div>
+        </div>
+        <div class="header">
+            <nav class="navbar">
+                <ul class="navmenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./topics.html">TOPICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active-link" href="./contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h1 class="current_page_num">04</h1>
+        </div>
+        <div class="small_screen_current_page_num">
+            <h1 class="current_page_num">04</h1>
+        </div>
+       <div class="contact_container">
+            <div class="contact_content">
+                <h1>How can we help you</h1>
+
+                <div class="inner_contact_container">
+                    <p>
+                        If you want to ask any questions or want to know something about the tech, we'll always be happy to help. Feel free to contact us via this form or our email is notdybutdy@ntd.com.
+                    </p>
+                    <img src="./images/undraw_personal_email_re_4lx7.svg" alt="">
+                </div>
+            </div>
+            <div class="contact_form_container">
+                <form class="contact_form">
+                    <h1>Contact via this form</h1>
+                    <input type="text" class="contact_input" placeholder="Your name">
+                    <input type="text" class="contact_input" placeholder="Your email">
+                    <textarea rows="10" class="contact_input" placeholder="Message"></textarea>
+                    <button>Send message</button>
+                </form>
+            </div>
+       </div>
+     
+        <div class="next_page_container">
+            <a href="./index.html"><<< Home page</a>
+        </div>
+        <div class="footer">
+            <p>&copy;2023 initiate Burma, all right reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
